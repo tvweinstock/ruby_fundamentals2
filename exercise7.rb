@@ -31,3 +31,15 @@ bit_cohorts(students)
 students.delete(:cohort2)
 bit_cohorts(students)
 
+#Step 6 - calculating total number of students in all cohorts
+
+def total_students(students)
+	total = 0
+	students.each do |cohort, number| 
+		total += number.to_i
+	end
+	puts total
+end
+
+total_students(students)
+
