@@ -1,5 +1,5 @@
 def convert_temp(temp_f)
-	return (temp_f - 32) * 5.0/9
+	(temp_f - 32) * 5.0/9
 end
 
 puts "Hey, what's the temperature in Fahrenheit?"

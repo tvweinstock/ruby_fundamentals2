@@ -12,7 +12,7 @@ grocery_list.each do |item|
 	puts '*' + item
 end
 
-#method to call for up-to-date grocery list
+#method to call for reusable up-to-date grocery list
 def updated_list(list)
 	list.each do |item|
 	puts '*' + item
